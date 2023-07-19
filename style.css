@@ -1,47 +1,159 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-header{    
-width: 100%;
-height: 100%;
-
-}
-
-.logo{
+.logo {
     display: flex;
     align-items: center;
     justify-content: space-around;
     width: 18vw;
-    
-    }
 
-.sessao01{
+}
+
+.sessao01 {
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 8vh;
-    
+
 }
-.sessao01 nav{
+
+.sessao01 nav {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;    
+    justify-content: space-evenly;
     width: 20vw;
 }
 
-.banner{
-display: flex;
-width: 100%;
-object-fit: cover;
+.banner {
+    display: flex;
+    background-image: url("./banner.png");
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/*------------------------- MAIN ----------------*/
+
+.promo {
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    padding: 20px 60px 0px 60px;
+    border-bottom: solid 2px #A5A1A1;
+
+}
+
+.sessao02 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 60px 0px 60px;
+}
+
+.sessao03 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 60px 100px 60px;
 }
 
 
+figure {
+
+    width: 302px;
+
+}
 
 
+.valor {
+    display: flex;
+    padding: 10px 0px 0px 0px;
+    gap: 3px;
+}
+
+.preco {
+    color: #5CA720;
+}
+
+/*---------------------FOOTER--------------*/
+
+footer {
+    height: 62vh;
+    background-color: #F9F9F9;
+}
+
+.sessao_footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40vh;
+    padding: 60px;
+    border-top: solid 2px #A5A1A1;
+    border-bottom: solid 2px #A5A1A1;
+}
+
+.nav_footer {
+    flex-direction: column;
+    display: flex;
+    font-size: 20px;
+    width: 25vw;
 
 
+}
+
+.nav_footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.sessao_footer_email h2 {
+    padding-bottom: 20px;
+}
+
+form {
+    display: flex;
 
 
+}
+
+form input {
+    width: 60vh;
+    height: 9vh;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+
+}
+
+form button {
+    border: none;
+    height: 9vh;
+    width: 20vh;
+    border-radius: 0px 5px 5px 0px;
+    font-size: 20px;
+    color: #ffff;
+    background-color: #5CA720;
+}
+
+.sessao_footer02 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.midias_sociais {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 60px 0px 0px 60px;
+}
+
+.pagamento {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 60px 60px 0px 0px;
+}
